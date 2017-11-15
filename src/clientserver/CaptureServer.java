@@ -63,7 +63,7 @@ public class CaptureServer {
 				}
 
 			} catch (Exception e) {
-				// TODO: handle exception
+				System.out.println("Exception caugth " + e);
 			}
 		}
 		System.out.println("Closing server socket");

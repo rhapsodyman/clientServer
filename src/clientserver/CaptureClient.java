@@ -52,6 +52,8 @@ public class CaptureClient {
 
 	public static void main(String[] args) throws IOException {
 		CaptureClient captureClient = new CaptureClient();
-		captureClient.killApplication("calc.exe");
+		//captureClient.killApplication("calc.exe");
+		captureClient.makeSrceenshot();
+		
 	}
 }

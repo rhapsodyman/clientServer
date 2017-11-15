@@ -103,6 +103,9 @@ public class OS {
     public static void main(String[] args) {
 		OS os = new OS();
 		System.out.println(os.getOSName());
+		System.out.println( Runtime.getRuntime().availableProcessors());
 	}
+    
+    
 
 }
